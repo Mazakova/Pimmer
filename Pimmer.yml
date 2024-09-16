@@ -1,40 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2024-09-16T15:08+02:00">
+<yml_catalog date="2024-09-16T15:10+02:00">
   <shop>
-
     <name>Напитки</name>
     <company>Любимый сад</company>
     <url>https://brand-lubimiy.ru/</url>
     <platform>1С</platform>
+	
     <categories>
     	<category id="1">Соки</category>
-    	<category id="10" parentId="1">Апельсиновый сок</category>
-    	<category id="11" parentId="1">Яблочный сок</category>
+    	<category id="12" parentId="1">Томатный сок</category>
+    	<category id="13" parentId="1">Персиковый сок</category>
     	<category id="2">Смузи</category>
     </categories>
 
-
-
-
-
     <offers>
-    	<offer id="001">
-	      <name>Апельсиновый сок</name>
-	      <price>125</price>
-	      <oldprice>250</oldprice>
-	      <picture>https://pivobraga.ru/image/cache/data/vine/soki/0/sok_apelsinovyy_koncentrirovannyy_1kg_131-600x600.jpg
-	      </picture>
-	      <categoryId>10</categoryId>
-	    </offer>
-
-	    <offer id="002">
-	    	<name>Яблочный сок</name>
-	    	<price>100</price>
-	    	<oldprice>125</oldprice>
-	    	<picture>https://media.istockphoto.com/id/503096289/ru/фото/яблочный-сок-наливать-с-красные-яблоки-в-стакан.jpg?s=612x612%26w=0%26k=20%26c=n7-obK6bKgqJHG7HGk1cM0D6FJNT3IpFjHkL1BmUXWw=
-	      	</picture>
-	      	<categoryId>11</categoryId>
-	    </offer>
+		<offer id="003">
+			<name>Персиковый сок</name>
+			<price>125</price>
+			<oldprice>250</oldprice>
+			<picture>https://foto.vsesoki.ru/files/1/1429/17458581/original/persikovyi_sok_h200_v_stakane.jpg</picture>
+			<categoryId>10</categoryId>
+	 	</offer>
     </offers>
   </shop>
 </yml_catalog>
