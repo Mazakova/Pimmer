@@ -1,0 +1,23 @@
+shop:
+  name: "Напитки"
+  company: "Любимый сад"
+  url: "https://brand-lubimiy.ru/"
+  platform: "1С"
+  categories:
+    - id: 1
+      name: "Соки"
+    - id: 12
+      parentId: 1
+      name: "Томатный сок"
+    - id: 13
+      parentId: 1
+      name: "Персиковый сок"
+    - id: 2
+      name: "Смузи"
+  offers:
+    - id: "003"
+      name: "Персиковый сок"
+      price: 125
+      oldprice: 250
+      picture: "https://foto.vsesoki.ru/files/1/1429/17458581/original/persikovyi_sok_h200_v_stakane.jpg"
+      categoryId: 13
