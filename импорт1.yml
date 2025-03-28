@@ -1,23 +1,58 @@
-shop: "для тестирования 314"
+shop:
   name: "Напитки"
   company: "Любимый сад"
   url: "https://brand-lubimiy.ru/"
   platform: "1С"
   categories:
     - id: 1
-      name: "Соки"
-    - id: 12
-      parentId: 1
-      name: "Томатный сок"
-    - id: 13
-      parentId: 1
-      name: "Персиковый сок"
-    - id: 2
-      name: "Смузи"
+      name: "Бакалея"
+      subcategories:
+        - id: 1
+          name: "Кондитерские изделия"
+          subcategories:
+            - id: 1
+              name: "Шоколад"
+        - id: 2
+          name: "Специи и приправы"
+        - id: 3
+          name: "Растительное масло"
   offers:
-    - id: "003"
-      name: "Персиковый сок"
-      price: 125
-      oldprice: 250
-      picture: "https://foto.vsesoki.ru/files/1/1429/17458581/original/persikovyi_sok_h200_v_stakane.jpg"
-      categoryId: 13
+    - id: "001a1e6c-78ed-49b2-a008-2d2694767444"
+      name: "Шоколад Ritter Sport молочный, 100 гр."
+      price: 23000.00
+      categoryId: 1
+      subcategoryId: 1
+      picture: "https://mps-static.humans.uz/60e/e1a/ee3/40969039/product_image_fKPMcf.jpg;https://mps-static.humans.uz/c7d/774/1d8/40969049/product_image_qZmZLg.jpg"
+      barcode: "01806001008000000"
+      weight: 0.5
+      unit: "шт"
+      basePrice: 20000.00
+      markup: 1
+      quantityMin: 1
+      quantityStep: 1
+    - id: "001a4b50-b064-4d47-b55e-f898375108a0"
+      name: "Арча ветка горная Кашкадарья"
+      price: 230000.00
+      categoryId: 2
+      subcategoryId: 1
+      picture: "https://mps-static.humans.uz/d67/781/b9d/40967495/product_image_dwttWh.jpg"
+      barcode: "02103002006000000"
+      weight: 0.1
+      unit: "кг"
+      basePrice: 200000.00
+      markup: 1
+      quantityMin: 1
+      quantityStep: 1
+    - id: "001f8e35-2949-4993-8309-77ae528bc6ae"
+      name: "Хлопковое масло Sharq, 1 л"
+      price: 20700.00
+      categoryId: 3
+      subcategoryId: 1
+      picture: "https://mps-static.humans.uz/398/543/223/40969016/product_image_5hKRTi.jpg"
+      barcode: "01512001001000000"
+      weight: 1.0
+      unit: "шт"
+      basePrice: 18000.00
+      markup: 1
+      quantityMin: 1
+      quantityStep: 1
